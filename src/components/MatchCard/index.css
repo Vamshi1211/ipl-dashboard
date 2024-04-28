@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.recent-match-container {
+  list-style-type: none;
+  background-color: #0f172a;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-container {
+    width: 28%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.match-card-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-heading {
+    font-size: 24px;
+    width: 60%;
+  }
+}
+
+.match-card-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  /* border: 2px solid green; */
+}
+.match-status-lost {
+  color: #e31a1a;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  text-align: center;
+}
+.match-status-win {
+  color: #18ed66;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  text-align: center;
+}
+
+.competing-team-logo {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}

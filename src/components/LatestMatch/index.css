@@ -1,0 +1,172 @@
+/* Write your CSS here */
+.latest-match-details-container {
+  width: 100%;
+  margin-top: 20px;
+}
+/* @media screen and (min-width: 768px) {
+  .latest-match-details-container {
+    width: 90%;
+  }
+} */
+
+.latest-match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-heading {
+    font-size: 24px;
+  }
+}
+
+.latest-match-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.details-and-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-line {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .horizontal-line {
+    display: none;
+  }
+}
+
+.against-competing-team {
+  align-self: center;
+  margin-right: 20px;
+}
+
+.competing-team-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-heading {
+    font-size: 24px;
+  }
+}
+
+.date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 24px;
+  }
+}
+
+.venue {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .result {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.competing-logo-1 {
+  height: 100px;
+  width: 100px;
+  min-height: 80px;
+  min-width: 80px;
+  align-self: center;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .competing-logo-1 {
+    display: none;
+  }
+}
+
+.competing-logo-2 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .competing-logo-2 {
+    width: 18%;
+    display: block;
+    align-self: center;
+  }
+}
+
+.latest-match-additional-details-container {
+  text-align: left;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-additional-details-container {
+    align-self: flex-end;
+    text-align: right;
+    margin-left: 20px;
+  }
+}
+.additional-headings {
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .additional-headings {
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+
+.additional-info {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .additional-info {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

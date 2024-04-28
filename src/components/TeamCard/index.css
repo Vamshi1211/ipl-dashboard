@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.team-link-item {
+  text-decoration: none;
+  display: flex;
+  border-radius: 8px;
+  width: 50%;
+}
+
+@media screen and (min-width: 578px) {
+  .team-link-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+  }
+}
+
+.ipl-team {
+  list-style-type: none;
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .ipl-team {
+    list-style-type: none;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.team-image {
+  height: 45px;
+  width: 45px;
+}
+
+@media screen and (min-width: 578px) {
+  .team-image {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-image {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.team-name-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 5px;
+  width: 60%;
+}
+
+@media screen and (min-width: 578px) {
+  .team-name-heading {
+    font-size: 18px;
+    margin-left: 10px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-name-heading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 20px;
+    width: 50%;
+  }
+}
